@@ -48,7 +48,7 @@ public class Program {
             }
             Console.WriteLine("Downloading latest hosts file!");
             try {
-                client.DownloadFile("https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",filePath);
+                client.DownloadFile("https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt",filePath);
             }
             catch(Exception ex)
             {
